@@ -124,6 +124,7 @@ anything = 42
 
 <br/><br/>
 ---
+---
 <br/><br/>
 
 - bazı programlama dillerinde bir degisken tanimladigimizda tipini belirtmek zorunda oluruz. yani String bir degisken tanimladigimizda basina String yazariz. biz yukaridaki orneklerde bu tipleri belirttik ama aslında swiffte bu zorunlu degildir. hatta tavsiye edilmez. swift te tip kontrolü runtime da yapilir.
