@@ -1,12 +1,12 @@
-<br/><br/><br/><br/>
+<br/><br/>
 selamlar, bu yazida veri tiplerinden bahsedecegim.
 
-<br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/>
 
 
 ![data types](https://github.com/user-attachments/assets/451c1413-0785-455d-b95f-81a9fb1bc43f)
 
-
+<br/><br/><br/><br/>
 
 
 ## 1. sayisal veri tipleri
@@ -35,6 +35,8 @@ var precisePi: Double = 3.1415926535
 var pi: Float = 3.14
 ```
 
+<br/><br/>
+
 ## 2. metin ve karakter veri tipleri
 
 - String -> metinleri saklamak icin kullanilir
@@ -48,6 +50,8 @@ var name: String = "John"
 var letter: Character = "A"
 ```
 
+<br/><br/>
+
 ## 3. boolean (mantiksal) veri tipi
 
 - Bool -> true ya da false degerini tutar
@@ -55,6 +59,8 @@ var letter: Character = "A"
 ```
 var isSwiftFun: Bool = true
 ```
+
+<br/><br/>
 
 ## 4. collection veri tipleri
 
@@ -76,5 +82,5 @@ var uniqueNumbers: Set<Int> = [1, 2, 3, 4, 5]
 var user: [String: String] = ["name": "John", "age": "25"]
 ```
 
-
+<br/><br/>
 
