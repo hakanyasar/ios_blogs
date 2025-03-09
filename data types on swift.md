@@ -3,15 +3,16 @@
 
 
 ```
-isItLikedBefore(postId: postViewModel.post.postId) { result in
-            if result == true{
+if indexPath.item == self.feedViewModel.postList.count-1 && !FeedPaginationSingletonModel.sharedInstance.isFinishedPaging {PaginationSingletonModel.shPaginationSingletonModel.sh
+            
+            self.webService.continuePagesFeed { postList in
                 
-                cell.isLikedCheck = true
-                cell.likeButton.setImage(UIImage(systemName: "heart.fill"), for: .normal)
-            }else{
+                self.feedViewModel = FeedVcViewModel(postList: postList)
                 
-                cell.isLikedCheck = false
-                cell.likeButton.setImage(UIImage(systemName: "heart"), for: .normal)
+                DispatchQueue.main.async {
+                    
+                    self.tableView.reloadData()
+                }
             }
         }
 
