@@ -164,13 +164,17 @@ constantNumbers["pressure"] = 760
 
 <br/>
 
-- şimdi sırasıyla bos array, set ve dictionay tanimlayalım:
+- şimdi sırasıyla bos array, set ve dictionay tanimlayalım. array den baslayalim. bos bir array tanimlamanin 3 farkli yolu vardir:
 
 ```
-var emptyArray: [String] = []
-var helloWorld = Set<String>()
-var emptyDictionary: [String: Float] = [:]
+var numbers: [Int] = []     // tur belirterek bos array olusturma
+var numbers = Array<Int>()     // array initializer (Array() kullanimi) ile bos array olusturma
+var numbers = [Int]()     // [] kullanarak kisa tanimlama (en cok kullanilan yontem bu)
+
 ```
 <br/>
+
+var helloWorld = Set<String>()
+var emptyDictionary: [String: Float] = [:]
 
 
