@@ -120,7 +120,7 @@ anything = 42
 - AnyObject -> sadece ssnif turleri (class) icin kullanilir
 - nil -> bir degiskenin bos oldugunu belirtir (sadece optional lar için gecerlidir)
 
-<br/>
+<br/><br/>
 
 bazı programlama dillerinde tip vardır yani String bir degisken tanimladigimizda basina String yazariz ama swiftte bu zorunlu degildir. swiftte tip kontrolü runtime da yapilir.
 
