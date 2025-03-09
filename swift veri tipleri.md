@@ -10,7 +10,7 @@ selamlar, bu yazida veri tiplerinden bahsedecegim.
 <br/><br/><br/><br/>
 
 
-##  1. sayisal veri tipleri
+## 1. sayisal veri tipleri
 
 - Int -> tam sayilar icin kullanilir
 
@@ -85,5 +85,26 @@ var user: [String: String] = ["name": "John", "age": "25"]
 
 <br/>
 
+## 5. optional (opsiyonel) veri tipi
 
+- Optional(?) -> bir degiskenin nil (bos) olabilecegini gosterir
+
+```
+var optionalNumber: Int? = nil
+optionalNumber = 42
+```
+
+<br/>
+
+## 6. tuples (demetler)
+
+- birden fazla farkli veri turunu bir arada tutar
+
+
+```
+var person: (name: String, age: Int) = ("Alice", 30)
+print(person.name) // Alice
+```
+
+<br/>
 
