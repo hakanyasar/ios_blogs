@@ -10,7 +10,7 @@ selamlar, bu yazida veri tiplerinden bahsedecegim.
 <br/><br/><br/><br/>
 
 
-## 1. sayisal veri tipleri
+##  1. sayisal veri tipleri
 
 - Int -> tam sayilar icin kullanilir
 
