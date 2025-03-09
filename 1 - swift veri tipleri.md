@@ -167,12 +167,20 @@ var numbers = [Int]()          // [] kullanarak kisa tanimlama (en yaygin kullan
 ```
 <br/>
 
-- boş bir set tanımlamanin 3 farklı yolu vardir:
+- boş bir set tanimlamanin 3 farkli yolu vardir:
 
 ```
 var numbers: Set<Int> = []             // tür belirterek boş set olusturma (boş ama nil degil)
 var numbers = Set<Int>()               // Set() initializer ile boş set oluşturma (boş ama nil degil) (en yaygin kullanilan yontem bu)
 var optionalSet: Set<Int>? = nil       // optional boş set oluşturma (bu, ilk başta nil olan ama daha sonra deger atanabilen bir set olusturur)
+
+```
+<br/>
+
+- boş bir dictionary tanimlamanin 4 farkli yolu vardir:
+
+```
+
 
 ```
 <br/>
