@@ -149,7 +149,7 @@ let blank' : Int
 
 <br/>
 
-- collection bir veri tipi olusturmak istiyorsak köseli parantezleri kullaniyoruz. dizi icinde tutulacak deger tipini koseli parantezler arasina yazmamiz tanimlama icin yeterli. eger dizi tanimlamasi sirasinda deger atamasi da yapiyorsak tip atamamiza gerek yoktur. dictionary icin ise anahtar-deger tiplerini koseli parantez icinde yaziyoruz. anahtar ve degerler iki nokta ust uste ile birbirinden ayriliyor. diziden bir deger almak istedigimizde yine koseli parantezler arasina almak istedigimiz degerin index degerini yaziyoruz.
+- collection bir veri tipi olusturmak istiyorsak köseli parantezleri kullaniyoruz. dizi icinde tutulacak deger tipini koseli parantezler arasina yazmamiz tanimlama icin yeterli. eger dizi tanimlamasi sirasinda deger atamasi da yapiyorsak tip atamamiza gerek yoktur. dictionary icin ise anahtar-deger tiplerini koseli parantez icinde yaziyoruz. anahtar ve degerler iki nokta ust uste ile birbirinden ayriliyor. diziden bir deger almak ya da deger atamak istedigimizde yine koseli parantezler arasina almak/atamak istedigimiz degerin index degerini yaziyoruz.
 
 ```
 var shoppingList: [String] = []
@@ -163,4 +163,14 @@ constantNumbers["pressure"] = 760
 
 
 <br/>
+
+- şimdi sırasıyla bos array, set ve dictionay tanimlayalım:
+
+```
+var emptyArray: [String] = []
+var helloWorld = Set<String>()
+var emptyDictionary: [String: Float] = [:]
+```
+<br/>
+
 
