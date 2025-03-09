@@ -135,4 +135,12 @@ bu sekilde tipini belirtmeden degisken tanımlayabiliriz. tipini belirtebiliriz 
 
 <br/>
 
+- örnegin bir degisken olusturacagiz ve ici bos kalsin istiyoruz icine herhangi bir deger atamayacagiz boyle bir durumda sadece tipini belirtmemiz yeterli. su sekilde:
+
+```
+var blank: String
+```
+
+<br/>
+
 
