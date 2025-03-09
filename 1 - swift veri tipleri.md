@@ -160,11 +160,15 @@ let blank : Int
 - boş bir array tanimlamanin 3 farkli yolu vardir:
 
 ```
-var numbers: [Int] = []        // tür belirterek boş array tanimlama
-var numbers = Array<Int>()     // Array() initializer ile boş array tanimlama
-var numbers = [Int]()          // [] kullanarak kisa tanimlama (en yaygin)
+var numbers: [Int] = []        // tür belirterek boş array tanimlama (boş ama nil degil)
+var numbers = Array<Int>()     // Array() initializer ile boş array tanimlama (boş ama nil degil)
+var numbers = [Int]()          // [] kullanarak kisa tanimlama (en yaygin) (boş ama nil degil)
 
 ```
+<br/>
+
+![bos array](https://github.com/user-attachments/assets/74c0fdf5-b002-4ad4-9731-b8206ea1808b)
+
 <br/>
 
 - boş bir set tanimlamanin 3 farkli yolu vardir:
