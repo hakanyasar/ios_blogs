@@ -173,7 +173,7 @@ var array: [Int]? = nil        // optional boş array tanimlama (bu, ilk başta 
 
 <br/>
 
-- boş bir set tanimlamanin 3 farkli yolu vardir:
+- boş bir set tanimlamanin 5 farkli yolu vardir:
 
 ```
 var numbers: Set<Int> = []             // tür belirterek boş set tanimlama (boş ama nil degil)
