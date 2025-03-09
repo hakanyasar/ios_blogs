@@ -186,6 +186,9 @@ var numbers: Set<Int>? = nil           // optional boş set tanimlama (bu, ilk b
 
 ![bos set](https://github.com/user-attachments/assets/1485a21d-0c52-4d3d-acd2-4ea6fa97f9c8)
 
+![bos set 2](https://github.com/user-attachments/assets/f374d316-6bf3-4270-8e1d-58660c3c105e)
+
+
 <br/>
 
 tablodan da anlasildigi uzere bir set in baslangicta ya da daha sonradan nil olabilmesi icin kesinlikle optional kullanmaliyiz.
