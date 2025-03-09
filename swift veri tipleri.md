@@ -122,3 +122,11 @@ anything = 42
 
 <br/>
 
+bazı programlama dillerinde tip vardır yani String bir degisken tanimladigimizda basina String yazariz ama swiftte bu zorunlu degildir. swiftte tip kontrolü runtime da yapilir.
+
+```
+var greeting = "hello, mobile developers!"
+```
+
+<br/>
+
