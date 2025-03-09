@@ -1,7 +1,7 @@
 
 selamlar, bu yazida veri tiplerinden bahsedecegim.
 
-
+<br/><br/><br/><br/><br/><br/><br/><br/>
 
 
 ![data types](https://github.com/user-attachments/assets/451c1413-0785-455d-b95f-81a9fb1bc43f)
