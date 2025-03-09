@@ -108,3 +108,17 @@ print(person.name) // Alice
 
 <br/>
 
+## 7. Any, AnyObject ve Nil
+
+- Any -> her turden veri icerebilir
+
+```
+var anything: Any = "Swift"
+anything = 42
+```
+
+- AnyObject -> sadece ssnif turleri (class) icin kullanilir
+- nil -> bir degiskenin bos oldugunu belirtir (sadece optional lar için gecerlidir)
+
+<br/>
+
