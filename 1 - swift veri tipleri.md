@@ -147,8 +147,18 @@ let blank' : Int
 
 <br/>
 
-- 
+- collection bir veri tipi olusturmak istiyorsak köseli parantezleri kullaniyoruz. dizi icinde tutulacak deger tipini koseli parantezler arasina yazmamiz tanimlama icin yeterli. eger dizi tanimlamasi sirasinda deger atamasi da yapiyorsak tip atamamiza gerek yoktur. dictionary icin ise anahtar-deger tiplerini koseli parantez icinde yaziyoruz. anahtar ve degerler iki nokta ust uste ile birbirinden ayriliyor. diziden bir deger almak istedigimizde yine koseli parantezler arasina almak istedigimiz degerin index degerini yaziyoruz.
+
+```
+var shoppingList: [String] = []
+shoppingList = ["water", "bread", "tomato"]
+shoppingList[1] = "patato"
+
+var constantNumbers: [String: Int] = [:]
+var constantNumbers = ["pi": 3.14, "gForce": 9.8]
+constantNumbers["pressure"] = 760
+```
 
 
-
+<br/>
 
