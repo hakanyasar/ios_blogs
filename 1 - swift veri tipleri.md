@@ -176,6 +176,7 @@ var optionalSet: Set<Int>? = nil       // optional (opsiyonel) boş set olusturm
 
 ```
 
+<br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 - collection bir veri tipi olusturmak istiyorsak köseli parantezleri kullaniyoruz. dizi icinde tutulacak deger tipini koseli parantezler arasina yazmamiz tanimlama icin yeterli. eger dizi tanimlamasi sirasinda deger atamasi da yapiyorsak tip atamamiza gerek yoktur. dictionary icin ise anahtar-deger tiplerini koseli parantez icinde yaziyoruz. anahtar ve degerler iki nokta ust uste ile birbirinden ayriliyor. diziden bir deger almak ya da deger atamak istedigimizde yine koseli parantezler arasina almak/atamak istedigimiz degerin index degerini yaziyoruz.
 
