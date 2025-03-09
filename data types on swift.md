@@ -1,5 +1,12 @@
 
-![data types](https://github.com/user-attachments/assets/5a584757-36bd-4ad3-b4a8-b9ef07db21cb)
+selamlar, bu yazida veri tiplerinden bahsedecegim.
+
+
+
+
+![data types](https://github.com/user-attachments/assets/451c1413-0785-455d-b95f-81a9fb1bc43f)
+
+
 
 
 ## 1. sayisal veri tipleri
