@@ -127,6 +127,12 @@ bazı programlama dillerinde tip vardır yani String bir degisken tanimladigimiz
 ```
 var greeting = "hello, mobile developers!"
 ```
+bu sekilde tipini belirtmeden degisken tanımlayabiliriz. tipini belirtebiliriz de ama tavsiye edilmez.
 
 <br/>
+
+degiskenleri `var` ile sabitleri de `let` ile tanımlıyoruz. 
+
+<br/>
+
 
