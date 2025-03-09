@@ -1,3 +1,4 @@
+# Swift veri tipleri
 <br/>
 selamlar, bu yazida veri tiplerinden bahsedecegim.
 
