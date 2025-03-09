@@ -69,6 +69,8 @@ var isSwiftFun: Bool = true
 
 ```
 var numbers: [Int] = [1, 2, 3, 4, 5]
+// ya da
+var numbers = [1, 2, 3, 4, 5]
 ```
 
 - Set -> benzersiz ögeleri tutan ve sirasiz olan koleksiyon
