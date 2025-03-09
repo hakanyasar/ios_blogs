@@ -149,20 +149,30 @@ let blank : Int
 
 <br/><br/>
 
-## collection veri tipie kısa bir bakis
+## collection veri tipine kısa bir bakis
 
 <br/>
 
-şimdi sırasıyla bos array, set ve dictionay tanimlayalım. 
-- array den baslayalim. bos bir array tanimlamanin 3 farkli yolu vardir:
+şimdi sırasıyla boş array, set ve dictionay tanimlamanın nasıl yapildigina bakalim.
+
+- boş bir array tanimlamanin 3 farkli yolu vardir:
 
 ```
-var numbers: [Int] = []        // tur belirterek bos array olusturma
+var numbers: [Int] = []        // tür belirterek boş array olusturma
 var numbers = Array<Int>()     // array initializer (Array() kullanimi) ile bos array olusturma
 var numbers = [Int]()          // [] kullanarak kisa tanimlama (en cok kullanilan yontem bu)
 
 ```
 <br/>
+
+- boş bir set tanımlamanin 3 farklı yolu vardir:
+
+```
+var numbers: Set<Int> = []             // tür belirterek boş set olusturma
+var numbers = Set<Int>()               // set() initializer kullanimi ile bos bir set olusturma (nil olamaz)
+var optionalSet: Set<Int>? = nil       // optional (opsiyonel) bos set olusturma (eger set in baslangicta nil olabilmesini istiyorsak)
+
+```
 
 
 - collection bir veri tipi olusturmak istiyorsak köseli parantezleri kullaniyoruz. dizi icinde tutulacak deger tipini koseli parantezler arasina yazmamiz tanimlama icin yeterli. eger dizi tanimlamasi sirasinda deger atamasi da yapiyorsak tip atamamiza gerek yoktur. dictionary icin ise anahtar-deger tiplerini koseli parantez icinde yaziyoruz. anahtar ve degerler iki nokta ust uste ile birbirinden ayriliyor. diziden bir deger almak ya da deger atamak istedigimizde yine koseli parantezler arasina almak/atamak istedigimiz degerin index degerini yaziyoruz.
