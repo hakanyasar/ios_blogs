@@ -153,6 +153,18 @@ let blank : Int
 
 <br/>
 
+şimdi sırasıyla bos array, set ve dictionay tanimlayalım. 
+- array den baslayalim. bos bir array tanimlamanin 3 farkli yolu vardir:
+
+```
+var numbers: [Int] = []     // tur belirterek bos array olusturma
+var numbers = Array<Int>()     // array initializer (Array() kullanimi) ile bos array olusturma
+var numbers = [Int]()     // [] kullanarak kisa tanimlama (en cok kullanilan yontem bu)
+
+```
+<br/>
+
+
 - collection bir veri tipi olusturmak istiyorsak köseli parantezleri kullaniyoruz. dizi icinde tutulacak deger tipini koseli parantezler arasina yazmamiz tanimlama icin yeterli. eger dizi tanimlamasi sirasinda deger atamasi da yapiyorsak tip atamamiza gerek yoktur. dictionary icin ise anahtar-deger tiplerini koseli parantez icinde yaziyoruz. anahtar ve degerler iki nokta ust uste ile birbirinden ayriliyor. diziden bir deger almak ya da deger atamak istedigimizde yine koseli parantezler arasina almak/atamak istedigimiz degerin index degerini yaziyoruz.
 
 ```
@@ -168,15 +180,6 @@ constantNumbers["pressure"] = 760
 
 <br/>
 
-- şimdi sırasıyla bos array, set ve dictionay tanimlayalım. array den baslayalim. bos bir array tanimlamanin 3 farkli yolu vardir:
-
-```
-var numbers: [Int] = []     // tur belirterek bos array olusturma
-var numbers = Array<Int>()     // array initializer (Array() kullanimi) ile bos array olusturma
-var numbers = [Int]()     // [] kullanarak kisa tanimlama (en cok kullanilan yontem bu)
-
-```
-<br/>
 
 var helloWorld = Set<String>()
 var emptyDictionary: [String: Float] = [:]
