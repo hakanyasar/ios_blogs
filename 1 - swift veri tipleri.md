@@ -172,7 +172,7 @@ var numbers = [Int]()          // [] kullanarak kisa tanimlama (en yaygin kullan
 ```
 var numbers: Set<Int> = []             // tür belirterek boş set olusturma
 var numbers = Set<Int>()               // Set() initializer ile boş set oluşturma (nil olamaz) (en yaygin kullanilan yontem bu)
-var optionalSet: Set<Int>? = nil       // optional (opsiyonel) boş set olusturma (bu, ilk başta nil olan ama daha sonra deger atanabilen bir set olusturur)
+var optionalSet: Set<Int>? = nil       // optional boş set oluşturma (bu, ilk başta nil olan ama daha sonra deger atanabilen bir set olusturur)
 
 ```
 
