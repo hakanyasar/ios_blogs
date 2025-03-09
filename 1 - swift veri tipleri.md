@@ -178,6 +178,7 @@ var array: [Int]? = nil        // optional boş array tanimlama (bu, ilk başta 
 ```
 var numbers: Set<Int> = []             // tür belirterek boş set tanimlama (boş ama nil degil)
 var numbers = Set<Int>()               // Set() initializer ile boş set tanimlama (boş ama nil degil) (en yaygin)
+var numbers: Set<Int>? = []            // optional boş set tanimlama (başlangicta boş ama ileride nil olabilir)
 var numbers: Set<Int>? = nil           // optional boş set tanimlama (bu, ilk başta nil olan ama daha sonra deger atanabilen bir set olusturur)
 
 ```
