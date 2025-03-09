@@ -160,7 +160,7 @@ let blank : Int
 ```
 var numbers: [Int] = []        // tür belirterek boş array olusturma
 var numbers = Array<Int>()     // array initializer (Array() kullanimi) ile bos array olusturma
-var numbers = [Int]()          // [] kullanarak kisa tanimlama (en cok kullanilan yontem bu)
+var numbers = [Int]()          // [] kullanarak kisa tanimlama (en yaygin kullanilan yontem bu)
 
 ```
 <br/>
@@ -169,8 +169,8 @@ var numbers = [Int]()          // [] kullanarak kisa tanimlama (en cok kullanila
 
 ```
 var numbers: Set<Int> = []             // tür belirterek boş set olusturma
-var numbers = Set<Int>()               // set() initializer kullanimi ile bos bir set olusturma (nil olamaz)
-var optionalSet: Set<Int>? = nil       // optional (opsiyonel) bos set olusturma (eger set in baslangicta nil olabilmesini istiyorsak)
+var numbers = Set<Int>()               // set() initializer kullanimi ile bos bir set olusturma (nil olamaz) (en yaygin kullanilan yontem bu)
+var optionalSet: Set<Int>? = nil       // optional (opsiyonel) bos set olusturma (bu, ilk başta nil olan ama daha sonra deger atanabilen bir set olusturur)
 
 ```
 
