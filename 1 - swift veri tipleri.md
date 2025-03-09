@@ -139,10 +139,12 @@ bu sekilde tipini belirtmeden degisken tanımlayabiliriz. tipini belirtebiliriz 
 
 ```
 var blank: String
-/// ya da bos sabit olusturmak istersek:
+// ya da bos sabit olusturmak istersek:
 let blank' : Int
 ```
 
 <br/>
+
+
 
 
