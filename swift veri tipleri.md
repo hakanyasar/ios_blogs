@@ -1,4 +1,4 @@
-# Swift veri tipleri
+# swift veri tipleri
 <br/>
 selamlar, bu yazida veri tiplerinden bahsedecegim.
 
@@ -84,4 +84,6 @@ var user: [String: String] = ["name": "John", "age": "25"]
 ```
 
 <br/><br/>
+
+
 
