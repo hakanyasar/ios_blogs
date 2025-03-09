@@ -197,7 +197,7 @@ var userInfo: [String: Int]? = nil             // optional boş dictionay taniml
 
 <br/>
 
-![bos dictionay](https://github.com/user-attachments/assets/b92c2d7b-8536-4b4f-9429-0526688448b4)
+![bos dictionary](https://github.com/user-attachments/assets/1767c48b-d8fb-413e-84ed-7ac334d3793b)
 
 <br/>
 
