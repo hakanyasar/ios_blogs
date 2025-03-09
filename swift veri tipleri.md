@@ -36,7 +36,7 @@ var precisePi: Double = 3.1415926535
 var pi: Float = 3.14
 ```
 
-<br/><br/>
+<br/>
 
 ## 2. metin ve karakter veri tipleri
 
@@ -51,7 +51,7 @@ var name: String = "John"
 var letter: Character = "A"
 ```
 
-<br/><br/>
+<br/>
 
 ## 3. boolean (mantiksal) veri tipi
 
@@ -61,7 +61,7 @@ var letter: Character = "A"
 var isSwiftFun: Bool = true
 ```
 
-<br/><br/>
+<br/>
 
 ## 4. collection veri tipleri
 
@@ -83,7 +83,7 @@ var uniqueNumbers: Set<Int> = [1, 2, 3, 4, 5]
 var user: [String: String] = ["name": "John", "age": "25"]
 ```
 
-<br/><br/>
+<br/>
 
 
 
