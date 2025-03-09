@@ -1,4 +1,4 @@
-
+<br/><br/><br/><br/>
 selamlar, bu yazida veri tiplerinden bahsedecegim.
 
 <br/><br/><br/><br/><br/><br/><br/><br/>
