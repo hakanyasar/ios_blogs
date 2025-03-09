@@ -3,17 +3,6 @@
 
 
 ```
-if indexPath.item == self.feedViewModel.postList.count-1 && !FeedPaginationSingletonModel.sharedInstance.isFinishedPaging {PaginationSingletonModel.shPaginationSingletonModel.sh
-            
-            self.webService.continuePagesFeed { postList in
-                
-                self.feedViewModel = FeedVcViewModel(postList: postList)
-                
-                DispatchQueue.main.async {
-                    
-                    self.tableView.reloadData()
-                }
-            }
-        }
+
 
 ```
