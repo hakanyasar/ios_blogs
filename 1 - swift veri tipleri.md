@@ -144,8 +144,12 @@ bu sekilde degisken tanimliyoruz.
 ```
 var blank: String
 // ya da bos sabit olusturmak istersek:
-let blank' : Int
+let blank : Int
 ```
+
+<br/><br/>
+
+## collection veri tipie kısa bir bakis
 
 <br/>
 
