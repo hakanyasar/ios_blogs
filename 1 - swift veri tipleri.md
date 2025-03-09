@@ -177,19 +177,20 @@ var optionalSet: Set<Int>? = nil       // optional boş set oluşturma (bu, ilk 
 ```
 <br/>
 
+![bos set](https://github.com/user-attachments/assets/1485a21d-0c52-4d3d-acd2-4ea6fa97f9c8)
+
+<br/>
+
+tablodan da anlasildigi uzere bir set in baslangicta ya da daha sonradan nil olabilmesi icin kesinlikle optional kullanmaliyiz.
+
+<br/>
+
 - boş bir dictionary tanimlamanin 4 farkli yolu vardir:
 
 ```
 
 
 ```
-<br/>
-
-![bos set](https://github.com/user-attachments/assets/1485a21d-0c52-4d3d-acd2-4ea6fa97f9c8)
-
-<br/>
-
-tablodan da anlasildigi uzere bir set in baslangicta ya da daha sonradan nil olabilmesi icin kesinlikle optional kullanmaliyiz.
 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
