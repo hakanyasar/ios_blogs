@@ -157,9 +157,9 @@ let blank : Int
 - array den baslayalim. bos bir array tanimlamanin 3 farkli yolu vardir:
 
 ```
-var numbers: [Int] = []     // tur belirterek bos array olusturma
+var numbers: [Int] = []        // tur belirterek bos array olusturma
 var numbers = Array<Int>()     // array initializer (Array() kullanimi) ile bos array olusturma
-var numbers = [Int]()     // [] kullanarak kisa tanimlama (en cok kullanilan yontem bu)
+var numbers = [Int]()          // [] kullanarak kisa tanimlama (en cok kullanilan yontem bu)
 
 ```
 <br/>
