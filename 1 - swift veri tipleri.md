@@ -149,9 +149,13 @@ let blank : Int
 
 <br/><br/>
 
-## collection veri tipine kısa bir bakis <br/>
+## collection veri tipine kısa bir bakis 
 
-şimdi sırasıyla boş array, set ve dictionay tanimlamanın nasıl yapildigina bakalim. <br/>
+<br/>
+
+şimdi sırasıyla boş array, set ve dictionay tanimlamanın nasıl yapildigina bakalim. 
+
+<br/>
 
 - boş bir array tanimlamanin 3 farkli yolu vardir:
 
