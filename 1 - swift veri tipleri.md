@@ -153,7 +153,7 @@ let blank : Int
 
 <br/>
 
-şimdi sırasıyla boş array, set ve dictionay tanimlamanın nasıl yapildigina bakalim. 
+şimdi sırasıyla boş array, set ve dictionary tanimlamanın nasıl yapildigina bakalim. 
 
 <br/>
 
