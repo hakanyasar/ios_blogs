@@ -2,7 +2,72 @@
 ![data types](https://github.com/user-attachments/assets/5a584757-36bd-4ad3-b4a8-b9ef07db21cb)
 
 
+## 1. sayisal veri tipleri
+
+- Int -> tam sayilar icin kullanilir
+
+```
+var age: Int = 25
+```
+
+- UInt -> negatif olmayan tam sayilar icin kullanilir
+
+```
+var count: UInt = 100
+```
+
+- Double -> ondalikli sayilar icin kullanilir (64 bit)
+
+```
+var precisePi: Double = 3.1415926535
+```
+
+- Float -> ondalikli sayilar icin kullanilir (32 bit)
+
+```
+var pi: Float = 3.14
+```
+
+## 2. metin ve karakter veri tipleri
+
+- String -> metinleri saklamak icin kullanilir
+
+```
+var name: String = "John"
+```
+- Character -> tek bir karakteri saklamak icin kullanilir
+
+```
+var letter: Character = "A"
+```
+
+## 3. boolean (mantiksal) veri tipi
+
+- Bool -> true ya da false degerini tutar
+
+```
+var isSwiftFun: Bool = true
+```
+
+## 4. collection veri tipleri
+
+- Array -> aynı turde birden fazla ögeyi iceren diziler
+
+```
+var numbers: [Int] = [1, 2, 3, 4, 5]
+```
+
+- Set -> benzersiz ögeleri tutan ve sirasiz olan koleksiyon
+
+```
+var uniqueNumbers: Set<Int> = [1, 2, 3, 4, 5]
+```
+
+- Dictionary -> anahtar-deger ciftlerini saklayan veri tipi
+
+```
+var user: [String: String] = ["name": "John", "age": "25"]
 ```
 
 
-```
+
