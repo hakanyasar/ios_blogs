@@ -160,9 +160,9 @@ let blank : Int
 - boş bir array tanimlamanin 3 farkli yolu vardir:
 
 ```
-var numbers: [Int] = []        // tür belirterek boş array olusturma
-var numbers = Array<Int>()     // Array() initializer ile boş array oluşturma
-var numbers = [Int]()          // [] kullanarak kisa tanimlama (en yaygin kullanilan yontem bu)
+var numbers: [Int] = []        // tür belirterek boş array tanimlama
+var numbers = Array<Int>()     // Array() initializer ile boş array tanimlama
+var numbers = [Int]()          // [] kullanarak kisa tanimlama (en yaygin)
 
 ```
 <br/>
@@ -170,9 +170,9 @@ var numbers = [Int]()          // [] kullanarak kisa tanimlama (en yaygin kullan
 - boş bir set tanimlamanin 3 farkli yolu vardir:
 
 ```
-var numbers: Set<Int> = []             // tür belirterek boş set olusturma (boş ama nil degil)
-var numbers = Set<Int>()               // Set() initializer ile boş set oluşturma (boş ama nil degil) (en yaygin kullanilan yontem bu)
-var optionalSet: Set<Int>? = nil       // optional boş set oluşturma (bu, ilk başta nil olan ama daha sonra deger atanabilen bir set olusturur)
+var numbers: Set<Int> = []             // tür belirterek boş set tanimlama (boş ama nil degil)
+var numbers = Set<Int>()               // Set() initializer ile boş set tanimlama (boş ama nil degil) (en yaygin)
+var numbers: Set<Int>? = nil           // optional boş set tanimlama (bu, ilk başta nil olan ama daha sonra deger atanabilen bir set olusturur)
 
 ```
 <br/>
@@ -188,9 +188,19 @@ tablodan da anlasildigi uzere bir set in baslangicta ya da daha sonradan nil ola
 - boş bir dictionary tanimlamanin 4 farkli yolu vardir:
 
 ```
-
+var userInfo: [String: Int] = [:]              // tür belirterek boş dictionary tanimlama
+var userInfo = Dictionary<String, Int>()       // Dictionary() initializer ile boş dictionary tanimlama
+var userInfo = [String: Int]()                 // [:] kullanarak kisa tanimlama (en yaygin)
+var userInfo: [String: Int]? = nil             // optional boş dictionay tanimlama (bu, ilk başta nil olan ama daha sonra deger atanabilen bir dictionary olusturur)
 
 ```
+
+<br/>
+
+![bos dictionay](https://github.com/user-attachments/assets/b92c2d7b-8536-4b4f-9429-0526688448b4)
+
+<br/>
+
 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
