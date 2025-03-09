@@ -65,7 +65,7 @@ var isSwiftFun: Bool = true
 
 ## 4. collection veri tipleri
 
-- Array -> aynı turde birden fazla ögeyi iceren diziler
+- Array -> aynı turde birden fazla ögeyi iceren collection veri tipi
 
 ```
 var numbers: [Int] = [1, 2, 3, 4, 5]
@@ -73,13 +73,13 @@ var numbers: [Int] = [1, 2, 3, 4, 5]
 var numbers = [1, 2, 3, 4, 5]
 ```
 
-- Set -> benzersiz ögeleri tutan ve sirasiz olan koleksiyon
+- Set -> benzersiz ögeleri tutan ve sirasiz olan collection veri tipi
 
 ```
 var uniqueNumbers: Set<Int> = [1, 2, 3, 4, 5]
 ```
 
-- Dictionary -> anahtar-deger ciftlerini saklayan veri tipi
+- Dictionary -> anahtar-deger ciftlerini saklayan collection veri tipi
 
 ```
 var user: [String: String] = ["name": "John", "age": "25"]
