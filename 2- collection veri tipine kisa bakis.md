@@ -49,9 +49,9 @@ tablodan da anlasildigi uzere bir set in baslangicta ya da daha sonradan nil ola
 - boş bir dictionary tanimlamanin temelde 3 farkli yolu vardir:
 
 ```
+var userInfo = [String: Int]()                 // [:] kullanarak kisa tanimlama (en yaygin)
 var userInfo: [String: Int] = [:]              // tür belirterek boş dictionary tanimlama
 var userInfo = Dictionary<String, Int>()       // Dictionary() initializer ile boş dictionary tanimlama
-var userInfo = [String: Int]()                 // [:] kullanarak kisa tanimlama (en yaygin)
 
 var userInfo: [String: Int]? = nil             // optional boş dictionay tanimlama (bu, ilk başta nil olan ama daha sonra deger atanabilen bir dictionary olusturur)
 var userInfo: [String: Int]? = [:]             // optional boş dictionay tanimlama (başlangicta boş yani nil degil ama ileride nil olabilir)
