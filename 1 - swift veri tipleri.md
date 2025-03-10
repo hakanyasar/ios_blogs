@@ -163,7 +163,7 @@ let blank : Int
 var numbers: [Int] = []        // tür belirterek boş array tanimlama (boş ama nil degil)
 var numbers = Array<Int>()     // Array() initializer ile boş array tanimlama (boş ama nil degil)
 var numbers = [Int]()          // [] kullanarak kisa tanimlama (en yaygin) (boş ama nil degil)
-var array: [Int]? = []         // optional boş array tanimlama (başlangicta boş ama ileride nil olabilir)
+var array: [Int]? = []         // optional boş array tanimlama (başlangicta boş yani nil degil ama ileride nil olabilir)
 var array: [Int]? = nil        // optional boş array tanimlama (bu, ilk başta nil olan ama daha sonra deger atanabilen bir array olusturur)
 
 ```
