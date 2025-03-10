@@ -10,9 +10,9 @@
 - boş bir array tanimlamanin 5 farkli yolu vardir:
 
 ```
+var numbers = [Int]()          // [] kullanarak kisa tanimlama (en yaygin) (boş ama nil degil)
 var numbers: [Int] = []        // tür belirterek boş array tanimlama (boş ama nil degil)
 var numbers = Array<Int>()     // Array() initializer ile boş array tanimlama (boş ama nil degil)
-var numbers = [Int]()          // [] kullanarak kisa tanimlama (en yaygin) (boş ama nil degil)
 var array: [Int]? = []         // optional boş array tanimlama (başlangicta boş yani nil degil ama ileride nil olabilir)
 var array: [Int]? = nil        // optional boş array tanimlama (bu, ilk başta nil olan ama daha sonra deger atanabilen bir array olusturur)
 
@@ -26,8 +26,8 @@ var array: [Int]? = nil        // optional boş array tanimlama (bu, ilk başta 
 - boş bir set tanimlamanin 4 farkli yolu vardir:
 
 ```
-var numbers: Set<Int> = []             // tür belirterek boş set tanimlama (boş ama nil degil)
 var numbers = Set<Int>()               // Set() initializer ile boş set tanimlama (boş ama nil degil) (en yaygin)
+var numbers: Set<Int> = []             // tür belirterek boş set tanimlama (boş ama nil degil)
 var numbers: Set<Int>? = []            // optional boş set tanimlama (başlangicta boş yani nil degil ama ileride nil olabilir)
 var numbers: Set<Int>? = nil           // optional boş set tanimlama (bu, ilk başta nil olan ama daha sonra deger atanabilen bir set olusturur)
 
