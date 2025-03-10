@@ -226,7 +226,31 @@ var constantNumbers: [String: Int] = [:]
 var constantNumbers = ["pi": 3.14, "gForce": 9.8]
 ```
 
-<br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br/><br/><br/><br/><br/>
 
 bu yazidaki bilgiler çeşitli websitelerinden ve chatgpt den faydalanilarak yazilmistir.
 
