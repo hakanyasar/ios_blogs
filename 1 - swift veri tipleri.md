@@ -188,7 +188,7 @@ var numbers: Set<Int>? = nil           // optional boş set tanimlama (bu, ilk b
 
 <br/>
 
-tablodan da anlasildigi uzere bir set in baslangicta ya da daha sonradan nil olabilmesi icin kesinlikle optional kullanmaliyiz.
+tablodan da anlasildigi uzere bir set in baslangicta ya da daha sonradan nil olabilmesi icin kesinlikle optional kullanmaliyiz. tabloda 2. satirda ":" yerine "=" olması lazım. chatgpt hatali yazmis orada.
 
 <br/>
 
@@ -228,4 +228,6 @@ var constantNumbers = ["pi": 3.14, "gForce": 9.8]
 var helloWorld = Set<String>()
 var emptyDictionary: [String: Float] = [:]
 
+<br/>
+bu yazidaki bilgiler çeşitli websitelerinden ve chatgpt den faydalanilarak yazilmistir.
 
