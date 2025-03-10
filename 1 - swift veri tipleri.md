@@ -210,9 +210,9 @@ var userInfo: [String: Int]? = [:]             // optional boş dictionay taniml
 <br/>
 
 
-<br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/>
 
-- collection bir veri tipi olusturmak istiyorsak köseli parantezleri kullaniyoruz. dizi icinde tutulacak deger tipini koseli parantezler arasina yazmamiz tanimlama icin yeterli. eger dizi tanimlamasi sirasinda deger atamasi da yapiyorsak tip atamamiza gerek yoktur. dictionary icin ise anahtar-deger tiplerini koseli parantez icinde yaziyoruz. anahtar ve degerler iki nokta ust uste ile birbirinden ayriliyor. 
+- goruldugu gibi collection bir veri tipi olusturmak istiyorsak köseli parantezleri kullaniyoruz. dizi icinde tutulacak deger tipini koseli parantezler arasina yazmamiz tanimlama icin yeterli. eger dizi tanimlamasi sirasinda deger atamasi da yapiyorsak tip atamamiza gerek yoktur. dictionary icin ise anahtar-deger tiplerini koseli parantez icinde yaziyoruz. anahtar ve degerler iki nokta ust uste ile birbirinden ayriliyor. 
 
 ```
 var shoppingList: [String] = []
@@ -222,13 +222,7 @@ var constantNumbers: [String: Int] = [:]
 var constantNumbers = ["pi": 3.14, "gForce": 9.8]
 ```
 
-
 <br/>
 
-
-var helloWorld = Set<String>()
-var emptyDictionary: [String: Float] = [:]
-
-<br/>
 bu yazidaki bilgiler çeşitli websitelerinden ve chatgpt den faydalanilarak yazilmistir.
 
