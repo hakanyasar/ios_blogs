@@ -7,12 +7,13 @@
 
 <br/>
 
-- boş bir array tanimlamanin 5 farkli yolu vardir:
+- boş bir array tanimlamanin temelde 3 farkli yolu vardir:
 
 ```
 var numbers = [Int]()          // [] kullanarak kisa tanimlama (en yaygin) (boş ama nil degil)
 var numbers: [Int] = []        // tür belirterek boş array tanimlama (boş ama nil degil)
 var numbers = Array<Int>()     // Array() initializer ile boş array tanimlama (boş ama nil degil)
+
 var array: [Int]? = []         // optional boş array tanimlama (başlangicta boş yani nil degil ama ileride nil olabilir)
 var array: [Int]? = nil        // optional boş array tanimlama (bu, ilk başta nil olan ama daha sonra deger atanabilen bir array olusturur)
 
@@ -23,11 +24,12 @@ var array: [Int]? = nil        // optional boş array tanimlama (bu, ilk başta 
 
 <br/>
 
-- boş bir set tanimlamanin 4 farkli yolu vardir:
+- boş bir set tanimlamanin temelde 2 farkli yolu vardir:
 
 ```
 var numbers = Set<Int>()               // Set() initializer ile boş set tanimlama (boş ama nil degil) (en yaygin)
 var numbers: Set<Int> = []             // tür belirterek boş set tanimlama (boş ama nil degil)
+
 var numbers: Set<Int>? = []            // optional boş set tanimlama (başlangicta boş yani nil degil ama ileride nil olabilir)
 var numbers: Set<Int>? = nil           // optional boş set tanimlama (bu, ilk başta nil olan ama daha sonra deger atanabilen bir set olusturur)
 
@@ -42,12 +44,13 @@ tablodan da anlasildigi uzere bir set in baslangicta ya da daha sonradan nil ola
 
 <br/>
 
-- boş bir dictionary tanimlamanin 5 farkli yolu vardir:
+- boş bir dictionary tanimlamanin temelde 3 farkli yolu vardir:
 
 ```
 var userInfo: [String: Int] = [:]              // tür belirterek boş dictionary tanimlama
 var userInfo = Dictionary<String, Int>()       // Dictionary() initializer ile boş dictionary tanimlama
 var userInfo = [String: Int]()                 // [:] kullanarak kisa tanimlama (en yaygin)
+
 var userInfo: [String: Int]? = nil             // optional boş dictionay tanimlama (bu, ilk başta nil olan ama daha sonra deger atanabilen bir dictionary olusturur)
 var userInfo: [String: Int]? = [:]             // optional boş dictionay tanimlama (başlangicta boş yani nil degil ama ileride nil olabilir)
 
