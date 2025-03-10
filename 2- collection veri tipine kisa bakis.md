@@ -11,8 +11,8 @@
 
 ```
 var numbers = [Int]()          // [] kullanarak kisa tanimlama (en yaygin) (boş ama nil degil)
-var numbers: [Int] = []        // tür belirterek boş array tanimlama (boş ama nil degil)
-var numbers: Array<Int> = []   // tür belirterek boş array tanimlama (boş ama nil degil)
+var numbers: [Int] = []        // tipini belirterek boş array tanimlama (boş ama nil degil)
+var numbers: Array<Int> = []   // tipini belirterek boş array tanimlama (boş ama nil degil)
 var numbers = Array<Int>()     // Array() initializer ile boş array tanimlama (boş ama nil degil)
 
 
@@ -30,7 +30,7 @@ var array: [Int]? = nil        // optional boş array tanimlama (bu, ilk başta 
 
 ```
 var numbers = Set<Int>()               // Set() initializer ile boş set tanimlama (boş ama nil degil) (en yaygin)
-var numbers: Set<Int> = []             // tür belirterek boş set tanimlama (boş ama nil degil)
+var numbers: Set<Int> = []             // tipini belirterek boş set tanimlama (boş ama nil degil)
 
 var numbers: Set<Int>? = []            // optional boş set tanimlama (başlangicta boş yani nil degil ama ileride nil olabilir)
 var numbers: Set<Int>? = nil           // optional boş set tanimlama (bu, ilk başta nil olan ama daha sonra deger atanabilen bir set olusturur)
@@ -50,7 +50,7 @@ tablodan da anlasildigi uzere bir set in baslangicta ya da daha sonradan nil ola
 
 ```
 var userInfo = [String: Int]()                 // [:] kullanarak kisa tanimlama (en yaygin)
-var userInfo: [String: Int] = [:]              // tür belirterek boş dictionary tanimlama
+var userInfo: [String: Int] = [:]              // tipini belirterek boş dictionary tanimlama
 var userInfo = Dictionary<String, Int>()       // Dictionary() initializer ile boş dictionary tanimlama
 
 var userInfo: [String: Int]? = nil             // optional boş dictionay tanimlama (bu, ilk başta nil olan ama daha sonra deger atanabilen bir dictionary olusturur)
