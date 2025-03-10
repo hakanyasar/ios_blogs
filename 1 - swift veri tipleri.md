@@ -188,7 +188,7 @@ var numbers: Set<Int>? = nil           // optional boş set tanimlama (bu, ilk b
 
 <br/>
 
-tablodan da anlasildigi uzere bir set in baslangicta ya da daha sonradan nil olabilmesi icin kesinlikle optional kullanmaliyiz. tabloda 2. satirda ":" yerine "=" olması lazım. chatgpt hatali yazmis orada.
+tablodan da anlasildigi uzere bir set in baslangicta ya da daha sonradan nil olabilmesi icin kesinlikle optional kullanmaliyiz. tabloda 2. satirda : yerine = olması lazım. chatgpt hatali yazmis orada.
 
 <br/>
 
