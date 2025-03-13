@@ -3,7 +3,7 @@
 
 <br/>
 
-şimdi sırasıyla boş array, set ve dictionary tanimlamanın nasıl yapildigina bakalim. 
+bu yazıdaki bilgiler tamamen doğru olmayabilir çünkü chatgpt den faydalandım. henüz araştırma yapıp filtrelemedim bilginiz olsun. şimdi sırasıyla boş array, set ve dictionary tanimlamanın nasıl yapildigina bakalim. 
 
 <br/>
 
